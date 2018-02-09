@@ -36,6 +36,8 @@ def turn(board)
 end
 
 def play(board)
+hasEnded = false
+
   for i=0; i<board.size; i++
     if board[i] == " "
       turn(board)
