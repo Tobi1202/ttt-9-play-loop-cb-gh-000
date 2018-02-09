@@ -35,4 +35,14 @@ def turn(board)
   end
 end
 
+def play(board)
+  for i=0; i<board.size; i++
+    if board[i] == " "
+      turn(board)
+    end
+    break
+  
+
+end
+
 # Define your play method below
