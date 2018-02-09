@@ -42,9 +42,7 @@ until hasEnded
   for i=0; i<board.size; i++
     if board[i] == " "
       turn(board)
-    
     end
-      hasEnded = true
     break
 end
 
