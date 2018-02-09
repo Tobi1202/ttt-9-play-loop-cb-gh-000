@@ -40,12 +40,13 @@ hasEnded = false
 
 until hasEnded
   hasEnded = true
-  for i=0; i<board.size; i++
-    if board[i] == " "
+  board.each{|chr|
+    if chr == " "
       turn(board)
       hasEnded = false
     end
-    break
+  }
+
 end
 
 # Define your play method below
