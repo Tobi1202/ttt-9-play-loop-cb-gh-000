@@ -41,8 +41,6 @@ def play(board)
       turn(board)
     end
     break
-  
-
 end
 
 # Define your play method below
