@@ -42,10 +42,10 @@ until hasEnded
   for i=0; i<board.size; i++
     if board[i] == " "
       turn(board)
-      hasEnded = true
+    
     end
+      hasEnded = true
     break
-
 end
 
 # Define your play method below
