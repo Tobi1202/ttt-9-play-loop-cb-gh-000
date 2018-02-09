@@ -35,4 +35,18 @@ def turn(board)
   end
 end
 
+def play(board)
+hasEnded = false
+
+until hasEnded
+  hasEnded = true
+  board.each{|chr|
+    if chr == " "
+      turn(board)
+      hasEnded = false
+    end
+  }
+
+end
+end
 # Define your play method below
