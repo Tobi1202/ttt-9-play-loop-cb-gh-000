@@ -39,6 +39,7 @@ def play(board)
 hasEnded = false
 
 until hasEnded
+  hasEnded = true
   for i=0; i<board.size; i++
     if board[i] == " "
       turn(board)
