@@ -38,11 +38,14 @@ end
 def play(board)
 hasEnded = false
 
+until hasEnded
   for i=0; i<board.size; i++
     if board[i] == " "
       turn(board)
+      hasEnded = true
     end
     break
+
 end
 
 # Define your play method below
